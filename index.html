@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- <link rel="stylesheet" href="css/all.min.css" /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/master.css" />
+    <title>Special Design</title>
+  </head>
+  <body>
+    <!-- !start setting boxs -->
+    <div class="settings-box">
+      <div class="icon"><i class="fa fa-gear ligth"></i></div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#ff9800"></li>
+            <li data-color="#e91e63"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#03a9f4"></li>
+            <li data-color="#4caf50"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4 class="h4">Random Background</h4>
+          <div class="random-Background">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4 class="h4">Show Bullets</h4>
+          <div class="Bullets-option">
+            <span class="yes active" data-display="show">Yes</span>
+            <span class="no" data-display="hide">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4 class="h4">Reset All</h4>
+          <div class="Reset-option">
+            <span class="yes active" data-display="show">Reset</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !end setting boxs -->
+    <!-- !start setting Nav Bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About me</div>
+      </div>
+      <div class="bullet" data-section=".our-skills">
+        <div class="tooltip">Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Projects</div>
+      </div>
+      <!--       <div class="bullet" data-section=".timeline">
+        <div class="tooltip">Profiles</div>
+      </div> -->
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Profiles</div>
+      </div>
+      <div class="bullet" data-section=".testimonial">
+        <div class="tooltip">Frameworks</div>
+      </div>
+    </div>
+    <!-- !end setting Nav Bullets -->
+    <!-- !start Landing Page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+
+      <div class="header-area">
+        <div class="logo">My Portfolio</div>
+        <div class="links-container">
+          <ul>
+            <li>
+              <a href="#" class="active" data-section=".about-us">About</a>
+            </li>
+            <li><a href="#" data-section=".our-skills">Skills</a></li>
+            <li><a href="#" data-section=".gallery">Projects</a></li>
+            <li>
+              <a href="#" data-section=".features">Profiles</a>
+            </li>
+            <li><a href="#" data-section=".testimonial">Frameworks</a></li>
+          </ul>
+          <button class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <div class="introduction-text">
+        <h1>Hi, I'm <span>Jibreen Jboor</span></h1>
+        <p>I'm a front-end developer.</p>
+      </div>
+    </div>
+    <!-- !end Landing Page -->
+    <!-- !start about us -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>More about me</h2>
+          <p>
+            I'm a recent graduate in Computer Systems Engineering, actively
+            seeking job or internship opportunities to enhance my skills and
+            gain valuable real-world experience. I have a strong passion for
+            learning and staying updated with modern software technologies,
+            particularly React.js. I have already completed various projects
+            that have allowed me to apply and refine my knowledge in this area.
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="/imgs/jbreen.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- !end about us -->
+    <!-- !start our Skills -->
+    <div class="our-skills">
+      <div class="container">
+        <h2>My Skills</h2>
+        <div class="skill-box">
+          <div class="skills-name">HTML</div>
+          <div class="skills-progress">
+            <span class="html" data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skills-name">CSS</div>
+          <div class="skills-progress">
+            <span class="css" data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skills-name">Java Script</div>
+          <div class="skills-progress">
+            <span class="js" data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skills-name">React-js</div>
+          <div class="skills-progress">
+            <span class="react" data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skills-name">R-Bootstrap</div>
+          <div class="skills-progress">
+            <span class="python" data-progress="60%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skills-name">P-Solving</div>
+          <div class="skills-progress">
+            <span class="c" data-progress="30%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !end our Skills -->
+    <!-- !Start our Gallery -->
+    <div class="gallery">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div class="images-box">
+          <a href="https://eclectic-sunshine-29c1a8.netlify.app" target="_blank"
+            ><img src="imgs/weather-three.png" alt="Image One"
+          /></a>
+          <a href="https://nimble-piroshki-4257ba.netlify.app" target="_blank"
+            ><img src="imgs/safari.png" alt="Image Two"
+          /></a>
+          <a
+            href="https://eloquent-sfogliatella-337625.netlify.app"
+            target="_blank"
+            ><img src="imgs//memory.png" alt="Image Three"
+          /></a>
+          <a href="https://magical-bombolone-681c85.netlify.app" target="_blank"
+            ><img src="imgs/crud.png" alt="Image Four"
+          /></a>
+          <a href="https://lustrous-fenglisu-da0aa3.netlify.app" target="_blank"
+            ><img src="imgs/book.png" alt="Image Five"
+          /></a>
+          <a
+            href="https://courageous-gingersnap-d2b287.netlify.app"
+            target="_blank"
+            ><img src="imgs/e-cc.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+    <!-- !end our Gallery -->
+    <!-- !start TimeLine -->
+    <!-- <div class="timeline">
+      <h2>TimeLine</h2>
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2018</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Accusamus, atque quae nobis voluptates pariatur distinctio
+                perferendis nisi. Nisi, laboriosam sed sunt nam, ipsum est
+                ratione saepe officia obcaecati, inventore dolore.
+              </p>
+            </div>
+          </div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Accusamus, atque quae nobis voluptates pariatur distinctio
+                perferendis nisi. Nisi, laboriosam sed sunt nam, ipsum est
+                ratione saepe officia obcaecati, inventore dolore.
+              </p>
+            </div>
+          </div>
+          <div class="loog">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Accusamus, atque quae nobis voluptates pariatur distinctio
+                perferendis nisi. Nisi, laboriosam sed sunt nam, ipsum est
+                ratione saepe officia obcaecati, inventore dolore.
+              </p>
+            </div>
+          </div>
+          <div class="dog">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Accusamus, atque quae nobis voluptates pariatur distinctio
+                perferendis nisi. Nisi, laboriosam sed sunt nam, ipsum est
+                ratione saepe officia obcaecati, inventore dolore.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- !end TimeLine -->
+    <!-- !start features -->
+    <div class="features">
+      <h2>My social media profiles</h2>
+      <div class="container">
+        <div class="feat-box">
+          <a href="https://github.com/JbreenJboor1212" target="_blank">
+            <img src="/imgs/github.png" alt="" />
+          </a>
+          <h4>Github</h4>
+          <p>I possess a collection of projects.</p>
+        </div>
+        <div class="feat-box">
+          <a href="https://leetcode.com/181057/" target="_blank">
+            <img src="/imgs/leetcode.png" alt="" />
+          </a>
+          <h4>LeetCode</h4>
+          <p>I possess a collection of logical solutions.</p>
+        </div>
+
+        <div class="feat-box">
+          <a
+            href="https://www.linkedin.com/in/jibreen-jboor-765360249"
+            target="_blank"
+          >
+            <img src="/imgs/LinkedIn.png" alt="" />
+          </a>
+          <h4>Linkedin</h4>
+          <p>I have a collection of interactions with friends.</p>
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <!-- !end features -->
+    <!-- !start Testimonial -->
+    <div class="testimonial">
+      <div class="container">
+        <h2>Frameworks and Pure Javascript</h2>
+        <div class="dd">
+          <div class="ts-box">
+            <p>
+              I am dedicated to putting in my utmost effort to achieve the
+              highest level in these areas and consistently deliver the highest
+              quality for their utilization.
+            </p>
+            <div class="person-info">
+              <img src="/imgs/React.png" alt="" />
+              <div>
+                <h4>React-js</h4>
+                <p>Front End</p>
+              </div>
+            </div>
+          </div>
+          <div class="ts-box">
+            <p>
+              I am dedicated to putting in my utmost effort to achieve the
+              highest level in these areas and consistently deliver the highest
+              quality for their utilization.
+            </p>
+            <div class="person-info">
+              <img src="/imgs/download.png" alt="" />
+              <div>
+                <h4>React-Bootstrap</h4>
+                <p>Front End</p>
+              </div>
+            </div>
+          </div>
+          <div class="ts-box">
+            <p>
+              I am dedicated to putting in my utmost effort to achieve the
+              highest level in these areas and consistently deliver the highest
+              quality for their utilization.
+            </p>
+            <div class="person-info">
+              <img src="/imgs/js.png" alt="" />
+              <div>
+                <h4>Pure Javascript</h4>
+                <p>Front End</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear-fix"></div>
+    </div>
+    <!-- !end Testimonial -->
+    <!-- !start Contact -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="username" />
+            <input type="text" placeholder="Your Phone" name="phone" />
+            <input type="email" placeholder="Your Email" name="Email" />
+            <input type="text" placeholder="Subject" name="Subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your Meassage"></textarea>
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- !end Contact -->
+    <!-- !start Fotter -->
+    <div class="footer">
+      <div class="container">
+        <p>Create With Jbreen jboor</p>
+      </div>
+    </div>
+    <!-- !end Fotter -->
+  </body>
+  <script src="master.js"></script>
+</html>
